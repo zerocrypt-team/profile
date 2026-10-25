@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="ZEROCRYPT | Cybersecurity Research and Security Team">
+<title>Members | ZEROCRYPT</title><link rel="stylesheet" href="style.css"></head>
+<body class="inner">
+<canvas id="rain" aria-hidden="true"></canvas>
+<header><nav class="wrap"><a href="index.html" class="brand"><span class="mark">Z/</span>ZEROCRYPT</a>
+<div class="links" id="links"><a href="index.html">Home</a><a href="about.html">About</a><a href="specialties.html">Specialties</a><a href="network.html">Network</a><a href="members.html" class="act">Members</a></div>
+<button id="menu" aria-label="Menu" aria-expanded="false">☰</button></nav><div id="prog"></div></header>
+<main>
+<section id="members" style="padding-top:10px"><div class="wrap">
+<div class="rv"><span class="eyebrow">05 / MEMBER DIRECTORY</span><h2>Meet the <span class="g">Team</span></h2></div>
+<div class="tools">
+<input id="q" type="search" placeholder="Search names, IDs, roles, specialties…" aria-label="Search members">
+<select id="role" aria-label="Role"><option value="all">All roles</option><option value="lead">Specialty leads</option><option value="core">Core leaders</option><option value="member">Members</option></select>
+<button class="btn" id="exp">Export JSON</button>
+</div>
+<div class="fc" id="chips"></div>
+<div class="rl"><span id="count" aria-live="polite"></span><span class="mono">DIRECTORY: <span class="g">INDEXED</span></span></div>
+<div class="grid g3" id="mg"></div>
+</div></section>
+</main>
+<footer><div class="wrap fi"><span>© <span id="yr"></span> ZEROCRYPT</span><div class="fl"><a href="index.html">Home</a><a href="about.html">About</a><a href="specialties.html">Specialties</a><a href="network.html">Network</a><a href="members.html">Members</a></div><span class="mono">learn / analyze / secure</span></div></footer>
+<div id="toast" role="status"></div>
+<script src="data.js"></script><script src="app.js"></script>
+</body></html>
